@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.navii {
+  justify-content: space-around;
+  display: flex;
+}
+
+.cont img {
+  height: 200px;
+  width: 200px;
+}
+
+.cont {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cont p {
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.hold {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  background-color: rgb(215, 187, 187);
+  justify-content: center;
+}
+
+.wantedpart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wantedpart p {
+  font-size: 30px;
+  color: black;
+}
+
+.scrores {
+  background-color: rgb(213, 226, 221);
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+}
+
+
+
+.cont2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.letters {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.letters div {
+  margin: 20px;
+  height: 40px;
+  border: 1px black solid;
+  background-color: rgb(186, 252, 135);
+  width: 70px;
+  cursor: pointer;
+}
+
+.aa {
+  height: 50px;
+  width: 50px;
+  margin: 30px;
+  border-bottom: 2px black solid;
+}
+
+.stop {
+  background-color: red;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.choices {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+  background-color: rgb(150, 150, 95);
+  color: rgb(0, 0, 0);
+}
+
+.imgess {
+  border-radius: 30px;
+  height: 80px;
+}
+
+.atte {
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .letters div {
+    height: 30px !important;
+    width: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cont {
+    height: 100px;
+  }
+
+  .cont img {
+    height: 100%;
+  }
+
+  .hold {
+    flex-direction: row !important;
+    display: flex !important;
+
+  }
+
+  .letters div {
+    margin: 9px;
+  }
+
+  .aa {
+    width: 20px;
+    border-bottom: 2px black solid;
+    margin: 2px;
+  }
+
+}
